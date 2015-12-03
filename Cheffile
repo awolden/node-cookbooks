@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook "nginx"
+cookbook "redis"
+cookbook "nodejs"
+cookbook "git"
+cookbook "tmux"
+cookbook "oh-my-zsh"
